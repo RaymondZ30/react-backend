@@ -2,12 +2,12 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://RaymondZ30.github.io/react-backend",
+  "homepage": "http://RaymondZ30.github.io/react-backend",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
