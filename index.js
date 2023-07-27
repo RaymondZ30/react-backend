@@ -22,6 +22,6 @@ connection.once('open', () => {
 app.use('/api/courses', require('./routes/api/courses'));
 app.use('/course', require('./routes/course'))
 
-const PORT = 5001;
+const port = process.env.PORT || 5001
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
